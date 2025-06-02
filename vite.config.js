@@ -2,6 +2,7 @@
 import basicSsl from '@vitejs/plugin-basic-ssl'
 
 export default {
+  base: '/ar-lab5/',
   plugins: [
     basicSsl({
       /** name of certification */
