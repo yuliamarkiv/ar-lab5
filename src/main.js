@@ -13,7 +13,6 @@ function getBaseUrl() {
         return window.location.origin + '/';
     }
 }
-
 const baseUrl = getBaseUrl();
 
 document.getElementById("task1Btn").addEventListener("click", () => {
