@@ -1,5 +1,3 @@
-import "./style.css";
-
 function getBaseUrl() {
     // Get the repository name from the pathname (will be empty locally)
     const pathParts = window.location.pathname.split('/');
@@ -26,15 +24,15 @@ document.getElementById("task1Btn").addEventListener("click", () => {
 
 document.getElementById("task2Btn").addEventListener("click", () => {
     window.location.href = baseUrl
-        + "/src/task2.html";
+        + "src/task2.html";
 });
 
 document.getElementById("task3Btn").addEventListener("click", () => {
     window.location.href = baseUrl
-        + "/src/task3.html";
+        + "src/task3.html";
 });
 
 document.getElementById("task4Btn").addEventListener("click", () => {
     window.location.href = baseUrl
-        + "/src/task4.html";ç
+        + "src/task4.html";
 });
