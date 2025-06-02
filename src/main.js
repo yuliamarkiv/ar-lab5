@@ -15,7 +15,6 @@ function getBaseUrl() {
 }
 
 const baseUrl = getBaseUrl();
-console.log('haha url', baseUrl);
 
 document.getElementById("task1Btn").addEventListener("click", () => {
     window.location.href = baseUrl
